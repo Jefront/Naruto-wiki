@@ -1,0 +1,33 @@
+.footer {
+    background: #0063f9;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: #000;
+    font-size: 1.125rem;
+    font-family: "Permanent Marker";
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footer ul li a {
+    justify-content: center;
+}
+
+.contato-footer {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}

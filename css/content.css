@@ -1,0 +1,128 @@
+.content {
+    max-width: 900px;
+    gap: 30px;
+    display: grid;
+    grid-area: content;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.caracteristicas {
+    display: flex;
+    align-items: flex-start;
+}
+
+.caracteristicas>div {
+    width: 80px;
+    text-align: center;
+    background: linear-gradient(135deg, #010b63, #0063f9);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px rgba(44, 44, 44, 0.15);
+    position: relative;
+}
+
+.caracteristicas>div:first-child {
+    margin-right: 30px;
+}
+
+.caracteristicas span {
+    display: block;
+}
+
+.citacao,
+.atributos {
+    align-self: start;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.1);
+    background: linear-gradient(135deg, #010b63, #0063f9);
+}
+
+.atributos {
+    align-self: end;
+}
+
+.atributos li {
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.125em;
+    padding: 15px;
+}
+
+.atributos li+li {
+    border-top: 2px solid #b07dfb;
+}
+
+.citacao p {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.imagem-1 {
+    align-self: end;
+}
+
+.imagem-2 {
+    align-self: end;
+    width: 535px;
+    height: 365px;
+}
+
+.imagem-3 {
+    width: 251px;
+    height: 348px;
+    align-self: end;
+}
+
+.numero {
+    color: #000;
+    font-family: "Permanent Marker";
+    font-size: 1rem;
+    line-height: 1;
+    margin: 10px auto;
+}
+
+.rotulo {
+    font-family: "Permanent Marker";
+    font-size: 1rem;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 0;
+    position: relative;
+    top: 2px;
+}
+
+.informacoes p+p {
+    margin-top: 30px;
+}
+
+.titulo {
+    color: #010b63;
+}
+
+.titulo h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Permanent Marker";
+}
+
+.destaque {
+    align-self: end;
+}
+
+.titulo span {
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .content {
+        grid-template-columns: auto;
+    }
+}

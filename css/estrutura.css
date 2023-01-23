@@ -1,0 +1,78 @@
+body,
+p,
+h1,
+blockquote,
+ul,
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Vollkorn", Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.005em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.col-wide {
+    grid-column: 1/-1;
+}
+
+.estrutura {
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 3fr;
+    grid-template-areas: "header header header" "sidenav content content" "footer footer footer";
+}
+
+@media (max-width: 1200px) {
+    .estrutura {
+        grid-template-areas: "header header header " "sidenav content content" "footer footer footer";
+    }
+}
+
+@media (max-width: 800px) {
+    .estrutura {
+        grid-template-columns: 100%;
+        grid-template-areas: "header " "sidenav" "content" "footer";
+    }
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidenav {
+    grid-area: sidenav;
+}
+
+.content {
+    grid-area: content;
+}
+
+.anuncios {
+    grid-area: anuncios;
+}
+
+.footer {
+    grid-area: footer;
+}
