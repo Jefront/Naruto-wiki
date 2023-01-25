@@ -3,6 +3,10 @@
     padding: 20px;
 }
 
+.sidenav li {
+    align-self: baseline;
+}
+
 .sidenav li a {
     display: block;
     min-width: 60px;
@@ -23,6 +27,8 @@
 }
 
 .sidenav img {
+    width: 217;
+    height: 213;
     border-radius: 0 0 5px 5px;
     -webkit-filter: grayscale(0%);
 }
@@ -48,7 +54,7 @@
         flex: 1 0 60px;
     }
     .sidenav {
-        padding: 0 30px;
+        padding: 0 15px;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar;

@@ -8,6 +8,10 @@ li {
     margin: 0px;
 }
 
+p {
+    margin-bottom: 0px;
+}
+
 body {
     font-family: "Vollkorn", Georgia, "Times New Roman", Times, serif;
 }

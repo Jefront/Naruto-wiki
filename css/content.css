@@ -67,15 +67,26 @@
     align-self: end;
 }
 
+.imagem-1-shukako {
+    height: 434px;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
 .imagem-2 {
     align-self: end;
     width: 535px;
-    height: 365px;
+    height: 434px;
 }
 
 .imagem-3 {
     width: 251px;
     height: 348px;
+    align-self: end;
+}
+
+.imagem-3-portador-e-besta {
+    height: 435px;
     align-self: end;
 }
 
